@@ -1,6 +1,7 @@
 [package]
-name = "booting"
+name = "uefi_app"
 version = "0.1.0"
 authors = ["Antoni Boucher <bouanto@zoho.com>"]
 
-build = "build.rs"
+[lib]
+crate-type = ["staticlib"]
